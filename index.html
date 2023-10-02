@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApp</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+
+    <div class="box">
+        <div class="top">
+            <h1>WEATHER APP</h1>
+            <div class="main">
+                <div>
+                    <h3 class="cityName"></h3>
+                    <input type="text" placeholder="Wpisz nazwę miasta..." class="city"><button
+                        class="btn">Zobacz</button>
+                    <p class="warning"></p>
+                </div>
+                <img src="./img/deafult.png" alt="Obrazek pogoda" class="image">
+            </div>
+        </div>
+        <div class="bottom">
+            <hr>
+            <div class="headings">
+                <p>Weather:</p>
+                <p>Temperature:</p>
+                <p>Wind:</p>
+            </div>
+            <div class="weatherInfo">
+                <p class="weather"></p>
+                <p class="temperature"></p>
+                <p class="wind"></p>
+               
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

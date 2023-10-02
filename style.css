@@ -1,0 +1,95 @@
+*{
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 9%, rgba(0,212,255,1) 100%);
+}
+h1{
+    margin: 5px, 0px, 5px, 0px;
+    text-align: center;
+    
+}
+.box{
+
+    width: 800px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.70);
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+
+}
+.headings{
+    margin-top: 20px;
+    display: flex;
+   
+    font-size: 20px;
+}
+.headings p{
+    width: 33%;
+    text-align: center;
+}
+input{
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid rgba(9,9,121,1);
+    
+
+}
+input:hover{
+    border-bottom: 2px solid rgba(0,212,255,1);
+}
+button{
+    margin-left: 10px;
+    transition-duration: 0.7s;
+    background-color: rgba(9,9,121,1);
+    height: 35px;
+    border: 1px solid black;
+    width: 100px;
+
+}
+button:hover{
+    transition-duration: 0.7s;
+    background-color: rgba(0,212,255,1);
+  
+}
+:placeholder-shown{
+    font-size: 20px;
+}
+.weatherInfo{
+       margin-top: 20px;
+    display: flex;
+ 
+  
+    font-size: 20px;
+
+}
+.weatherInfo p{
+    width: 33%;
+    text-align: center;
+}
+hr{
+    margin-top: 20px;
+    width:10%;
+}
+.warning{
+    color: red;
+}
